@@ -6,4 +6,8 @@ class Recipe < ActiveRecord::Base
       self.ingredients = Ingredient.build(ingredient_attribute)
     end
   end
+
+  def ingredient_attribute
+    self.ingredients
+  end
 end
