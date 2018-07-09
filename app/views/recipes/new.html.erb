@@ -3,9 +3,9 @@
 <%= f.label :title%>
 <%= f.text_field :title%><br>
 <h3>Ingredients:<br></h3>
-Name:<input name= 'recipe[ingredient][][name]' id='recipe_ingredients_attributes_0_name'>
-Quantity: <input name= 'recipe[ingredient][][quantity]' id='recipe_ingredients_attributes_0_quantity'><br>
-Name:<input name= 'recipe[ingredient][][name]' id='recipe_ingredients_attributes_1_name'>
-Quantity: <input name= 'recipe[ingredient][][quantity]' id='recipe_ingredients_attributes_1_quantity'><br>
+Name:<input name= 'recipe[ingredients_attributes][][name]' id='recipe_ingredients_attributes_0_name'>
+Quantity: <input name= 'recipe[ingredients_attributes][][quantity]' id='recipe_ingredients_attributes_0_quantity'><br>
+Name:<input name= 'recipe[ingredients_attributes][][name]' id='recipe_ingredients_attributes_1_name'>
+Quantity: <input name= 'recipe[ingredients_attributes][][quantity]' id='recipe_ingredients_attributes_1_quantity'><br>
 <%=f.submit%>
 <%end%>
